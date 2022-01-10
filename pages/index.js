@@ -17,7 +17,7 @@ export default function Home() {
           <a className=" ml-1 bg-green-100 p-2 rounded-md text-red-500" href="4th_sem_Java.pdf">Link to the PDF!</a>
         </p>
       </object>
-      <iframe className=" rounded-md" id="pdfviewer" src="http://docs.google.com/gview?embedded=true&url=testing-wine-six.vercel.app/4th_sem_Java.pdf&amp;embedded=true" frameBorder="0" width="500px" height="500px"></iframe>
+      <iframe className=" rounded-md" id="pdfviewer" src="http://docs.google.com/gview?embedded=true&url=testing-wine-six.vercel.app/4th_sem_Java.pdf&amp;embedded=true"  width="500px" height="500px"></iframe>
       <h1>Hello world</h1>
     </div>
   );

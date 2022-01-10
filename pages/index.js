@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className=" m-5 ">
       <object
-        className=" shadow-lg rounded-xl"
+        className=" p-2 border-2 shadow-lg rounded-xl"
         data="4th_sem_Java.pdf"
         type="application/pdf"
         width="500px"
@@ -17,6 +17,7 @@ export default function Home() {
           <a href="4th_sem_Java.pdf">to the PDF!</a>
         </p>
       </object>
+      <embed className=" rounded-xl" src="4th_sem_Java.pdf" width= "500" height= "375"></embed>
       <h1>Hello world</h1>
     </div>
   );

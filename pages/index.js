@@ -6,18 +6,18 @@ export default function Home() {
   return (
     <div className=" m-5 ">
       <object
-        className=" p-2 border-2 shadow-lg rounded-xl"
-        data="4th_sem_Java.pdf"
+        className=" shadow-lg rounded-xl"
+        data="4th_sem_ava.pdf"
         type="application/pdf"
         width="500px"
         height="600px"
       >
         <p>
-          Alternative text - include a link{" "}
-          <a href="4th_sem_Java.pdf">to the PDF!</a>
+          Sorry this browser does not support PDF 
+          <a className=" ml-1 bg-green-100 p-2 rounded-md text-red-500" href="4th_sem_Java.pdf">Link to the PDF!</a>
         </p>
       </object>
-      <embed className=" rounded-xl" src="4th_sem_Java.pdf" width= "500" height= "375"></embed>
+      <iframe className=" rounded-md" id="pdfviewer" src="http://docs.google.com/gview?embedded=true&url=testing-wine-six.vercel.app/4th_sem_Java.pdf&amp;embedded=true" frameborder="0" width="500px" height="500px"></iframe>
       <h1>Hello world</h1>
     </div>
   );

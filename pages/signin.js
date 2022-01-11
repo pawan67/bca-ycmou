@@ -1,16 +1,15 @@
 import Head from "next/head";
 import Image from "next/image";
-import Dashboard from "../components/Dashboard";
-import Loading from "../components/Loading";
 import SignIn from "../components/SignIn";
 import SignUp from "../components/SignUp";
 import { useUserContext } from "../context/userContext";
 import styles from "../styles/Home.module.css";
-//pawan67@gmail.com 12345678
-export default function Home() {
+import Dashboard from "../components/Dashboard";
+import Loading from "../components/Loading";
+function Signin() {
   const { loading, error, user } = useUserContext();
   return (
-    <>
+    <div>
       <Head>
         <style>
           @import
@@ -24,9 +23,11 @@ export default function Home() {
               {error}
             </p>
           )}
-          {loading ? <Loading /> : <>{user ? <Dashboard /> : <SignUp />}</>}
+          {loading ? <Loading /> : <>{user ? <Dashboard /> : <SignIn />}</>}
         </div>
       </div>
-    </>
+    </div>
   );
 }
+
+export default Signin;

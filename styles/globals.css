@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .background {
+    @apply font-nunito text-white bg-[#191720] w-screen min-h-screen;
+  }
+  .innerdiv {
+    @apply max-w-md mx-auto  p-12;
+  }
+  .button{
+      @apply bg-white text-black flex justify-center font-nunito font-bold rounded-2xl shadow-lg px-4 sm:py-4 py-3 sm:w-[320px]  w-[280px] m-2;
+  }
+}

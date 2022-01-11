@@ -28,12 +28,14 @@ function Header() {
             <div className="bg-[#7cfed0] text-black flex justify-center font-nunito font-bold rounded-[20px]  px-4 hover:shadow-xl sm:py-4 py-3 sm:w-[320px]  w-[280px] m-2">
               Have Suggestions ?
             </div>
-            <div
-              onClick={logOutUser}
-              className="bg-[#7cfed0] text-black flex justify-center hover:shadow-xl font-nunito font-bold rounded-[20px]  px-4 sm:py-4 py-3 sm:w-[320px]  w-[280px] m-2"
-            >
-              Sign Out
-            </div>
+            <Link href="/">
+              <div
+                onClick={logOutUser}
+                className="bg-[#7cfed0] text-black flex justify-center hover:shadow-xl font-nunito font-bold rounded-[20px]  px-4 sm:py-4 py-3 sm:w-[320px]  w-[280px] m-2"
+              >
+                Sign Out
+              </div>
+            </Link>
           </div>
           <div className=" mx-auto flex justify-center mt-36  font-bold ">
             <div>

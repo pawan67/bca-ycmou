@@ -13,7 +13,7 @@ function Dashboard() {
   const { user, logOutUser } = useUserContext();
   const router = useRouter();
   return (
-    <div className=" background">
+    <div className=" overflow-hidden background">
       <div className=" innerdiv">
         <Header />
         <div className=" sm:mt-20 flex  flex-col">
@@ -30,7 +30,7 @@ function Dashboard() {
               data-aos-duration="500"
               data-aos="fade-right"
               data-aos-delay="500"
-              className=" font-bold mt-2 "
+              className=" overflow-hidden font-bold mt-2 "
             >
               {user.displayName}
             </h1>
@@ -38,39 +38,45 @@ function Dashboard() {
               data-aos-duration="500"
               data-aos="fade-right"
               data-aos-delay="800"
-              className=" mt-2"
+              className=" overflow-hidden mt-2"
             >
               Welcome back.
             </h1>
           </div>
-          <div data-aos-duration="500"
-              data-aos="fade-left"
-              data-aos-delay="1000" className=" ml-20 sm:0  mt-10 w-52 ">
+          <div
+            data-aos-duration="900"
+            data-aos="fade-left"
+            data-aos-delay="1000"
+            className=" overflow-hidden ml-20 sm:0  mt-10 w-52 "
+          >
             <img src="svg/coder.svg" alt="" />
           </div>
         </div>
-        <div className=" mt-20 flex flex-col w-full items-center justify-center  ">
+        <div className="  mt-20 flex flex-col w-full items-center justify-center  ">
           <button
             data-aos-duration="500"
+            data-aos-delay="200"
             data-aos="zoom-in"
             onClick={() => router.push("/firstyear")}
-            className=" button"
+            className=" overflow-hidden button"
           >
             First Year
           </button>
           <button
             data-aos-duration="500"
+            data-aos-delay="400"
             data-aos="zoom-in"
             onClick={() => router.push("/firstyear")}
-            className=" button"
+            className=" overflow-hidden button"
           >
             Second Year
           </button>
           <button
             data-aos-duration="500"
             data-aos="zoom-in"
+            data-aos-delay="600"
             onClick={() => router.push("/firstyear")}
-            className=" button"
+            className="overflow-hidden button"
           >
             Third Year
           </button>

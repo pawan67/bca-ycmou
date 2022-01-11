@@ -61,7 +61,7 @@ function SignIn() {
         {/* Google signup */}
         <div
           onClick={signInWithGoogle}
-          className=" bg-white flex items-center justify-center py-3 rounded-2xl lg:w-[320px]  w-[280px]  mx-auto mt-5"
+          className=" cursor-pointer bg-white flex items-center justify-center py-3 rounded-2xl lg:w-[320px]  w-[280px]  mx-auto mt-5"
         >
           <FcGoogle className=" text-xl mr-1" />
           <span className=" font-bold">Sign in with Google</span>

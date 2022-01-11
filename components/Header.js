@@ -9,7 +9,7 @@ function Header() {
 
   if (menu) {
     return (
-      <div className=" bg-white text-black top-0 left-0 right-0 bottom-0 w-screen h-screen fixed">
+      <div className=" z-50 bg-white text-black top-0 left-0 right-0 bottom-0 w-screen h-screen fixed">
         <div className=" max-w-md mx-auto p-12 ">
           <RiCloseLine
             onClick={() => setMenu(false)}

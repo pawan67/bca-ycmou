@@ -1,13 +1,16 @@
-import Header from "../components/Header"
+import Link from "next/link";
+import FirstPage from "../components/FirstPage";
+import Header from "../components/Header";
 
 function Firstyear() {
-    return (
-        <div className=" background">
-            <div className=" innerdiv">
-                <Header/>
-            </div>
-        </div>
-    )
+  return (
+    <FirstPage
+      firstLink="/firstyearDashboardFirstSem"
+      secondLink="/firstyearDashboardSecondSem"
+      firstSem="1st Semester"
+      secondSem="2nd Semester"
+    />
+  );
 }
 
-export default Firstyear
+export default Firstyear;

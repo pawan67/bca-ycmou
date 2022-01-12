@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 import Header from "../components/Header";
-import Subject from "../components/Subject";
+
 import Head from "next/head";
-import { useState } from "react";
+
 function Firstyear() {
   return (
     <>

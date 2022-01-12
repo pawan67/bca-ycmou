@@ -57,7 +57,7 @@ function Dashboard() {
             data-aos-duration="500"
             data-aos-delay="200"
             data-aos="zoom-in"
-            onClick={() => router.push("/firstyear")}
+            
             className=" overflow-hidden button"
           >
             First Year
@@ -66,7 +66,7 @@ function Dashboard() {
             data-aos-duration="500"
             data-aos-delay="400"
             data-aos="zoom-in"
-            onClick={() => router.push("/firstyear")}
+            
             className=" overflow-hidden button"
           >
             Second Year
@@ -75,7 +75,7 @@ function Dashboard() {
             data-aos-duration="500"
             data-aos="zoom-in"
             data-aos-delay="600"
-            onClick={() => router.push("/firstyear")}
+            
             className="overflow-hidden button"
           >
             Third Year

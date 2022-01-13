@@ -11,7 +11,7 @@ import { useEffect } from "react";
 
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
-AOS.init();
+
 function Signin() {
   useEffect(() => {
     AOS.init();

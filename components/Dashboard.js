@@ -5,10 +5,7 @@ import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import Button from "./Button";
 import Header from "./Header";
 import { useRouter } from "next/router";
-import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
-AOS.init();
+
 function Dashboard() {
   const { user, logOutUser } = useUserContext();
   const router = useRouter();
@@ -53,29 +50,28 @@ function Dashboard() {
           </div>
         </div>
         <div className="  mt-20 flex flex-col w-full items-center justify-center  ">
+          <Link href="/fybca">
+            <button
+              data-aos-duration="500"
+              data-aos-delay="200"
+              data-aos="fade-up"
+              className=" overflow-hidden button"
+            >
+              First Year
+            </button>
+          </Link>
           <button
             data-aos-duration="500"
-            data-aos-delay="200"
-            data-aos="zoom-in"
-            
-            className=" overflow-hidden button"
-          >
-            First Year
-          </button>
-          <button
-            data-aos-duration="500"
-            data-aos-delay="400"
-            data-aos="zoom-in"
-            
+            data-aos-delay="300"
+            data-aos="fade-up"
             className=" overflow-hidden button"
           >
             Second Year
           </button>
           <button
             data-aos-duration="500"
-            data-aos="zoom-in"
-            data-aos-delay="600"
-            
+            data-aos="fade-up"
+            data-aos-delay="400"
             className="overflow-hidden button"
           >
             Third Year

@@ -18,7 +18,7 @@ function SignUp() {
   return (
     <div className=" font-nunito bg-[#191720] w-screen min-h-screen">
       <div className=" innerdiv">
-        <div className=" mx-auto max-w-sm">
+        <div data-aos="fade-down" className=" mx-auto max-w-sm">
           <img className="  mt-5 " src="svg/signup.svg" alt="" />
         </div>
         <div className=" mt-10 text-white ">
@@ -26,7 +26,6 @@ function SignUp() {
             Website for YCMOU BCA Students.{" "}
           </h1>
           <h2 className=" text-[#848592] text-medium mt-5 font-medium text-center">
-            {" "}
             Here You can find Syllabus, Important notes and Previous year
             question papers.
           </h2>
@@ -35,18 +34,27 @@ function SignUp() {
           <form onSubmit={onSubmit}>
             <div className=" text-white flex flex-col">
               <input
+              data-aos-duration="500"
+              data-aos="fade-up"
+              data-aos-delay="100"
                 ref={emailRef}
                 className=" border-[#3f3e47] border-[1px] mt-5 px-4 py-3 w-[280px] lg:w-[320px] rounded-2xl bg-[#1e1c24] outline-none   mx-auto"
                 type="text"
                 placeholder="Email"
               />
               <input
+               data-aos-duration="500"
+               data-aos="fade-up"
+               data-aos-delay="200"
                 ref={nameRef}
                 className=" border-[#3f3e47] border-[1px] mt-3 px-4 py-3 w-[280px] lg:w-[320px] rounded-2xl bg-[#1e1c24] outline-none   mx-auto"
                 type="text"
                 placeholder="Full Name"
               />
               <input
+               data-aos-duration="500"
+               data-aos="fade-up"
+               data-aos-delay="300"
                 ref={passwordRef}
                 className=" border-[#3f3e47] border-[1px] mt-3 px-4 py-3 lg:w-[320px]  w-[280px]  rounded-2xl bg-[#1e1c24] outline-none   mx-auto"
                 type="password"
@@ -54,6 +62,9 @@ function SignUp() {
               />
             </div>
             <button
+             data-aos-duration="500"
+             data-aos="fade-up"
+             data-aos-delay="400"
               className=" flex justify-center font-bold mt-5 px-4 py-3 lg:w-[320px]  w-[280px]  rounded-2xl bg-[#ffffff] outline-none   mx-auto"
               type="submit"
             >
@@ -64,6 +75,9 @@ function SignUp() {
 
         {/* Google signup */}
         <div
+         data-aos-duration="500"
+         data-aos="fade-up"
+         data-aos-delay="500"
           onClick={signInWithGoogle}
           className=" cursor-pointer bg-white flex items-center justify-center py-3 rounded-2xl lg:w-[320px]  w-[280px]  mx-auto mt-5"
         >

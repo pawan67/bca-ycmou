@@ -7,8 +7,16 @@ import SignUp from "../components/SignUp";
 import { useUserContext } from "../context/userContext";
 import styles from "../styles/Home.module.css";
 //pawan67@gmail.com 12345678
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+
 export default function Home() {
   const { loading, error, user } = useUserContext();
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <>
       <Head>

@@ -6,7 +6,16 @@ import { useUserContext } from "../context/userContext";
 import styles from "../styles/Home.module.css";
 import Dashboard from "../components/Dashboard";
 import Loading from "../components/Loading";
+import AOS from "aos";
+import { useEffect } from "react";
+
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 function Signin() {
+  useEffect(() => {
+    AOS.init();
+  });
   const { loading, error, user } = useUserContext();
   return (
     <div>

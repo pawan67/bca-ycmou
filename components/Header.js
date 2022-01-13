@@ -1,15 +1,13 @@
 import Link from "next/link";
 import { useState } from "react";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
-import { RiCloseLine } from "react-icons/ri";
+import { RiCloseLine, RiArrowGoBackLine } from "react-icons/ri";
 import { useUserContext } from "../context/userContext";
-import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
-AOS.init();
-function Header() {
+
+function Header({ backbtn }) {
   const { user, logOutUser } = useUserContext();
   const [menu, setMenu] = useState(false);
+  const [backBtn, setBackBtn] = useState(false);
   // console.log(user.photoURL);
   if (menu) {
     return (
@@ -31,7 +29,7 @@ function Header() {
             <img src="svg/landing.svg" alt="" />
           </div>
 
-          <div className=" space-y-5 mt-20">
+          <div className=" space-y-5 flex flex-col items-center mt-20">
             <Link href="/">
               <div
                 data-aos-duration="300"
@@ -79,9 +77,7 @@ function Header() {
   return (
     <div className=" flex justify-between">
       <HiOutlineMenuAlt2 onClick={() => setMenu(true)} className=" text-3xl" />
-      {/* <div className=" w-11  ">
-        <img className=" shadow-2xl  rounded-2xl" src={user.photoURL} alt="" />
-      </div> */}
+     
     </div>
   );
 }

@@ -21,7 +21,7 @@ function SignIn() {
   };
   return (
     <>
-      <div className=" font-nunito bg-[#191720] w-screen min-h-screen">
+      <div className=" font-nunito bg-[#191720] min-w-screen min-h-screen">
         <div className=" innerdiv">
           <div
             data-aos-duration="500"
@@ -36,7 +36,7 @@ function SignIn() {
               data-aos-duration="500"
               data-aos="fade-left"
               data-aos-delay="300"
-              className=" font-bold"
+              className=" font-bold "
             >
               Let's sign you in.
             </h1>

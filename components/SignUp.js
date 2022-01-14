@@ -16,7 +16,7 @@ function SignUp() {
     if (email && name && password) registerUser(email, name, password);
   };
   return (
-    <div className=" font-nunito bg-[#191720] w-screen min-h-screen">
+    <div className="  font-nunito bg-[#191720] min-w-screen min-h-screen">
       <div className=" innerdiv">
         <div data-aos="fade-down" className=" mx-auto max-w-sm">
           <img className="  mt-5 " src="svg/signup.svg" alt="" />

@@ -16,7 +16,8 @@ export const UserContextProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState();
   const [error, setError] = useState("");
-
+  const [subject, setSubject] = useState("mathes");
+  
   useEffect(() => {
     const unsub = setLoading(true);
     onAuthStateChanged(auth, (res) => {
@@ -64,7 +65,8 @@ export const UserContextProvider = ({ children }) => {
     user,
     loading,
     error,
-
+    subject,
+    setSubject,
     registerUser,
     signInUser,
     logOutUser,

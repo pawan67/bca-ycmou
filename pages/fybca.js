@@ -20,6 +20,10 @@ function Fybca() {
         sub2="Mathematics"
         sub3="Programming with C++"
         sub4="Problem solving using computers"
+        subName1="english"
+        subName2="maths"
+        subName3="c++"
+        subName4="c"
       />
     );
   }

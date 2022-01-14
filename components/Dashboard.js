@@ -60,22 +60,26 @@ function Dashboard() {
               First Year
             </button>
           </Link>
-          <button
-            data-aos-duration="500"
-            data-aos-delay="300"
-            data-aos="fade-up"
-            className=" overflow-hidden button"
-          >
-            Second Year
-          </button>
-          <button
-            data-aos-duration="500"
-            data-aos="fade-up"
-            data-aos-delay="400"
-            className="overflow-hidden button"
-          >
-            Third Year
-          </button>
+          <Link href="/sybca">
+            <button
+              data-aos-duration="500"
+              data-aos-delay="300"
+              data-aos="fade-up"
+              className=" overflow-hidden button"
+            >
+              Second Year
+            </button>
+          </Link>
+          <Link href="/tybca">
+            <button
+              data-aos-duration="500"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              className="overflow-hidden button"
+            >
+              Third Year
+            </button>
+          </Link>
         </div>
       </div>
     </div>

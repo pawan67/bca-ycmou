@@ -20,10 +20,40 @@ export default function Home() {
   return (
     <>
       <Head>
-        <style>
-          @import
-          url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
-        </style>
+        <title>Home</title>
+
+        <meta name="title" content="Website for YCMOU BCA Students." />
+        <meta
+          name="description"
+          content="Here You can find Syllabus, Important notes and Previous year question papers."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://metatags.io/" />
+        <meta property="og:title" content="Website for YCMOU BCA Students." />
+        <meta
+          property="og:description"
+          content="Here You can find Syllabus, Important notes and Previous year question papers."
+        />
+        <meta
+          property="og:image"
+          content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://metatags.io/" />
+        <meta
+          property="twitter:title"
+          content="Website for YCMOU BCA Students."
+        />
+        <meta
+          property="twitter:description"
+          content="Here You can find Syllabus, Important notes and Previous year question papers."
+        />
+        <meta
+          property="twitter:image"
+          content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+        ></meta>
       </Head>
       <div>
         <div>

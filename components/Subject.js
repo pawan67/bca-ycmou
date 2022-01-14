@@ -73,8 +73,8 @@ function Subject({
         </div>
         <div
           data-aos-duration="300"
-          data-aos="fade-down"
-          data-aos-delay="300"
+          data-aos="zoom-in"
+          data-aos-delay="500"
           className=" mt-10"
         >
           <img src="svg/product.svg" alt="" />

@@ -34,6 +34,10 @@ function Fybca() {
         sub2="Statistics"
         sub3="Data structures using C++"
         sub4="Computer Networks"
+        subName1="evs"
+        subName2="statistics"
+        subName3="dsc++"
+        subName4="computernetworks"
       />
     );
   }

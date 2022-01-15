@@ -79,9 +79,6 @@ function SignIn() {
                 />
               </div>
               <button
-                data-aos-duration="500"
-                data-aos="fade-up"
-                data-aos-delay="500"
                 className=" flex justify-center font-bold mt-5 px-4 py-3 lg:w-[320px]  w-[280px]  rounded-2xl bg-[#ffffff] outline-none   mx-auto"
                 type="submit"
               >
@@ -92,9 +89,6 @@ function SignIn() {
 
           {/* Google signup */}
           <div
-            data-aos-duration="500"
-            data-aos="fade-up"
-            data-aos-delay="600"
             onClick={signInWithGoogle}
             className=" cursor-pointer bg-white flex items-center justify-center py-3 rounded-2xl lg:w-[320px]  w-[280px]  mx-auto mt-5"
           >

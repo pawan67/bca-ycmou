@@ -40,14 +40,15 @@ function Header({ backbtn }) {
                 Home
               </div>
             </Link>
-            <div
+            <a
+            href="mailto:pawantamada8@gmail.com"
               data-aos-duration="300"
               data-aos="fade-up"
               data-aos-delay="400"
               className="bg-[#7cfed0] cursor-pointer  text-black flex justify-center font-nunito font-bold rounded-[20px] hover:shadow-xl px-4 sm:py-2 2xl:py-4 py-3 2xl:w-[320px]  w-[280px] m-2  "
             >
               Have Suggestions ?
-            </div>
+            </a>
             <Link href="/">
               <div
                 data-aos-duration="300"

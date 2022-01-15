@@ -35,7 +35,7 @@ function Pyq() {
           <div className=" mt-32">
             <a
               className="button"
-              href={`pdf/pyqs/Jan_2019/Sem_1/${subject}.pdf`}
+              href={`pdf/pyqs/Jan_2019/Fy/${subject}.pdf`}
             >
               {year} January{" "}
             </a>

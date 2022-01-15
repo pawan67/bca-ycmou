@@ -59,9 +59,6 @@ function SignIn() {
             <form onSubmit={onSubmit}>
               <div className=" text-white flex flex-col">
                 <input
-                  data-aos-duration="500"
-                  data-aos="fade-up"
-                  data-aos-delay="300"
                   ref={emailRef}
                   className=" border-[#3f3e47] border-[1px] mt-5 px-4 py-3 w-[280px] lg:w-[320px] rounded-2xl bg-[#1e1c24] outline-none   mx-auto"
                   type="text"
@@ -69,9 +66,6 @@ function SignIn() {
                 />
 
                 <input
-                  data-aos-duration="500"
-                  data-aos="fade-up"
-                  data-aos-delay="400"
                   ref={passwordRef}
                   className=" border-[#3f3e47] border-[1px] mt-3 px-4 py-3 lg:w-[320px]  w-[280px]  rounded-2xl bg-[#1e1c24] outline-none   mx-auto"
                   type="password"

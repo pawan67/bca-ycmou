@@ -17,6 +17,8 @@ export default function Home() {
   useEffect(() => {
     AOS.init();
   });
+  // console.log(user.photoURL);
+
   return (
     <>
       <Head>

@@ -8,7 +8,7 @@ function Header({ backbtn }) {
   const { user, logOutUser } = useUserContext();
   const [menu, setMenu] = useState(false);
   const [backBtn, setBackBtn] = useState(false);
-  // console.log(user.photoURL);
+
   if (menu) {
     return (
       <div className="  z-50 bg-white text-black top-0 left-0 right-0 bottom-0 w-screen min-h-screen fixed">
@@ -20,6 +20,7 @@ function Header({ backbtn }) {
             onClick={() => setMenu(false)}
             className=" text-5xl md:text-3xl 2xl:text-5xl float-right"
           />
+
           <div
             data-aos-duration="500"
             data-aos="fade-down"
@@ -41,7 +42,7 @@ function Header({ backbtn }) {
               </div>
             </Link>
             <a
-            href="mailto:pawantamada8@gmail.com"
+              href="mailto:pawantamada8@gmail.com"
               data-aos-duration="300"
               data-aos="fade-up"
               data-aos-delay="400"

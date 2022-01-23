@@ -21,7 +21,7 @@ function Dashboard() {
               data-aos-delay="300"
               className=" font-bold  text-3xl"
             >
-              Hey,
+              👋 Hey,
             </h1>
             <h1
               data-aos-duration="500"

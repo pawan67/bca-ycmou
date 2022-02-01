@@ -16,10 +16,7 @@ function Pyq() {
         <div className="innerdiv">
           <Header />
           <div className=" mt-32">
-            <a
-              className="button"
-              href={`pdf/pyqs/Jan_2018/Sem_1/${subject}.pdf`}
-            >
+            <a className="button" href={`pdf/pyqs/Jan_2018/Fy/${subject}.pdf`}>
               {year} January{" "}
             </a>
           </div>
@@ -33,10 +30,7 @@ function Pyq() {
         <div className="innerdiv">
           <Header />
           <div className=" mt-32">
-            <a
-              className="button"
-              href={`pdf/pyqs/Jan_2019/Fy/${subject}.pdf`}
-            >
+            <a className="button" href={`pdf/pyqs/Jan_2019/Fy/${subject}.pdf`}>
               {year} January{" "}
             </a>
           </div>
